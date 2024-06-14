@@ -1,6 +1,6 @@
 function getShippingMessage(country, price, deliveryFee){
     const totalPrice= price + deliveryFee;
-    const message = 'You ordered ${quantity} droids worth ${totalPrice} credits';
+    const message = `You ordered ${quantity} droids worth ${totalPrice} credits`;
     return message;
     
 }   
